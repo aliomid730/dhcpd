@@ -4,3 +4,6 @@ DHCP uses UDP as its transport protocol. DHCP messages that a client sends to a 
 
 ## Usage
 
+```
+docker run -d --name dhcpd --hostname dhcpd -p 67:67/udp -v $(pwd)/dhcpd.conf:/etc/dhcp/dhcpd.conf --restart always hashimi/dhcpd:1.0
+```
