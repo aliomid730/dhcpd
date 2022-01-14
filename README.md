@@ -1,3 +1,4 @@
+[![Docker Image CI](https://github.com/aliomid730/cacti/actions/workflows/docker-image.yml/badge.svg)](https://github.com/aliomid730/dhcpd/actions/workflows/docker-image.yml)
 # dhcpd
 DHCP allows hosts on a TCP/IP network to request and be assigned IP addresses, and also to discover information about the network to which they are attached.
 DHCP uses UDP as its transport protocol. DHCP messages that a client sends to a server are sent to well-known port 67.
